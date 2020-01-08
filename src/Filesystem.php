@@ -2,7 +2,6 @@
 
 namespace thans\filesystem;
 
-use InvalidArgumentException;
 use think\filesystem\Driver;
 use think\helper\Arr;
 use think\Manager;
