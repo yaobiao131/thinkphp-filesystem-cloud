@@ -1,6 +1,6 @@
 <?php
 
-namespace thans\filesystem\traits;
+namespace yaobiao\filesystem\traits;
 
 trait Storage
 {

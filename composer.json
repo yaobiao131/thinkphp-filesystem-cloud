@@ -13,20 +13,20 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Thans",
-            "email": "360641274@qq.com"
+            "name": "yaobiao",
+            "email": "1315508912@qq.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "thans\\filesystem\\": "src/"
+            "yaobiao\\filesystem\\": "src/"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "thans\\filesystem\\Service"
+                "yaobiao\\filesystem\\Service"
             ]
         }
     }

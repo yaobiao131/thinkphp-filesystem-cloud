@@ -11,10 +11,10 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace thans\filesystem\driver;
+namespace yaobiao\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
-use thans\filesystem\traits\Storage;
+use yaobiao\filesystem\traits\Storage;
 use think\filesystem\Driver;
 use Xxtime\Flysystem\Aliyun\OssAdapter;
 

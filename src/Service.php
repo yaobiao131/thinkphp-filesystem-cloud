@@ -1,6 +1,6 @@
 <?php
 
-namespace thans\filesystem;
+namespace yaobiao\filesystem;
 
 class Service extends \think\Service
 {

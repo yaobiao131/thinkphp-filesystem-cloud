@@ -1,14 +1,15 @@
 <?php
 
-namespace thans\filesystem;
+namespace yaobiao\filesystem;
 
+use InvalidArgumentException;
 use think\filesystem\Driver;
 use think\helper\Arr;
 use think\Manager;
 
 class Filesystem extends Manager
 {
-    protected $namespace = '\\thans\\filesystem\\driver\\';
+    protected $namespace = '\\yaobiao\\filesystem\\driver\\';
 
     /**
      * @param null|string $name
