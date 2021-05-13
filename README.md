@@ -1,6 +1,5 @@
-
 <h1><p align="center">thinkphp-filesystem-cloud</p></h1>
-<p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS</p>
+<p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS和awsS3</p>
 
 ## 包含
 
@@ -12,17 +11,17 @@
 1. 阿里云
 2. 七牛云
 3. 腾讯云
-
-## 计划
-1. 支持华为云
+4. awsS3
 
 ## 安装
+
 第一步：
+
 ```shell
-$ composer require thans/thinkphp-filesystem-cloud
+$ composer require yaobiao/thinkphp-filesystem-cloud
 ```
-第二步：
-在config/filesystem.php中添加配置
+
+第二步： 在config/filesystem.php中添加配置
 
 ```
 'aliyun' => [
@@ -53,21 +52,28 @@ $ composer require thans/thinkphp-filesystem-cloud
     'scheme'          => 'https',
     'read_from_cdn'   => false,
 ]
+'s3' => [
+    'type'            => 's3',
+    'region'          => '***', //bucket 所属区域 英文
+    'key'             => '***',
+    'secret'          => '***',
+    'endpoint'        => '***',
+    'bucket'          => '***',
+]
 ```
 
-第三步：
-开始使用。
-请参考thinkphp文档
+第三步： 开始使用。 请参考thinkphp文档
 文档地址：[https://www.kancloud.cn/manual/thinkphp6_0/1037639 ](https://www.kancloud.cn/manual/thinkphp6_0/1037639 )
-
 
 ## 授权
 
 MIT
 
 ## 感谢
+
 1. thinkphp
 2. xxtime/flysystem-aliyun-oss
 3. liz/flysystem-qiniu
 4. league/flysystem
 5. overtrue/flysystem-cos
+6. thans/thinkphp-filesystem-cloud
