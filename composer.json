@@ -18,7 +18,7 @@
             "email": "1315508912@qq.com"
         }
     ],
-    "minimum-stability": "1.0.0",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "yaobiao\\filesystem\\": "src/"
